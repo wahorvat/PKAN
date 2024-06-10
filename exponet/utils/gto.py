@@ -1,4 +1,3 @@
-
 """Evaluate Gaussian-Type Orbitals on a grid using Jax."""
 
 import collections

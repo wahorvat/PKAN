@@ -1,4 +1,3 @@
-
 """Basic data on chemical elements."""
 
 import collections

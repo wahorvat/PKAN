@@ -23,7 +23,6 @@ REQUIRED_PACKAGES = ['absl-py',
     'typing_extensions',                     
 ]
 
-
 def ferminet_test_suite():
   test_loader = unittest.TestLoader()
   test_suite = test_loader.discover('exponet/tests', pattern='*_test.py')
@@ -41,8 +40,8 @@ setup(
     scripts=['bin/exponet'],
     packages=find_packages(),
     install_requires=REQUIRED_PACKAGES,
-    extras_require={'testing': ['flake8', 'pylint', 'pytest', 'pytype']},
+    extras_require={'testing': ['pylint', 'pytest', 'pytype']},
     platforms=['any'],
     license='Apache 2.0',
-    test_suite='setup.ferminet_test_suite',
+    test_suite='setup.exponet_test_suite',
 )

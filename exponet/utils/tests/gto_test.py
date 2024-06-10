@@ -1,4 +1,3 @@
-
 """Tests for gto.py."""
 
 from absl.testing import absltest

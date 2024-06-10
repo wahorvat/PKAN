@@ -1,4 +1,3 @@
-
 """Functions to create different kinds of systems."""
 
 from typing import Sequence

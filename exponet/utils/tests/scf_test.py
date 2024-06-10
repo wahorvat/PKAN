@@ -1,4 +1,3 @@
-
 """Tests for exponet.utils.scf."""
 
 from typing import List, Tuple

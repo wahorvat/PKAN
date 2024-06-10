@@ -1,4 +1,3 @@
-
 """Basic definition of units and converters useful for chemistry."""
 
 from typing import TypeVar

@@ -1,4 +1,3 @@
-
 """Tests for exponet.utils.elements."""
 
 from absl.testing import absltest

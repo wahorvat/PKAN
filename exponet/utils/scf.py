@@ -1,4 +1,3 @@
-
 """Interaction with Hartree-Fock solver in pyscf."""
 
 # Abbreviations used:
