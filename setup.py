@@ -5,8 +5,22 @@ import unittest
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['lib...',
-                     'lib2...',                     
+REQUIRED_PACKAGES = ['absl-py',
+    'attrs',
+    'chex',
+    'h5py',
+    'folx'
+    'jax',
+    'jaxlib',
+    'kfac-jax'
+    'ml-collections',
+    'optax',
+    'numpy',
+    'pandas',
+    'pyscf',
+    'pyblock',
+    'scipy',
+    'typing_extensions',                     
 ]
 
 
