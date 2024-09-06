@@ -1,6 +1,6 @@
-# Quantum Chemistry with Energy Transformers Networks
+# Quantum Chemistry with Kolmogorov Arnold Networks
 
-Quantum neural networks have been shown to deliver exceptional performance as surrogate models for problems in many-body quantum systems. To predict electronic wavefunctions, this repo brings together the [energy transformer architect](https://github.com/bhoov/energy-transformer-jax/tree/main) with transformer methods from [Psiformer](https://arxiv.org/pdf/2211.13672.pdf) introduced by Deepmind.
+Quantum neural networks have been shown to deliver exceptional performance as surrogate models for problems in many-body quantum systems. To predict electronic wavefunctions, ChemKAN finds the radial and angular functions that minimize the energy of the Schrödinger Equation. 
 
 <!-- 
 - [ ] Input: Molecular data
