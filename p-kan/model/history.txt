@@ -1,20 +1,10 @@
 ### Round 0 ###
 init => 0.0
-0.0 => fit => 0.1
-0.1 => refine => 0.2
-0.2 => fit => 0.3
-0.3 => refine => 0.4
-0.4 => fit => 0.5
-0.5 => refine => 0.6
-0.6 => fit => 0.7
-0.7 => refine => 0.8
-0.8 => fit => 0.9
-0.9 => fit => 0.10
-0.10 => prune => 0.11
-0.11 => unfix_symbolic => 0.12
-0.12 => unfix_symbolic => 0.13
-0.13 => unfix_symbolic => 0.14
-0.14 => unfix_symbolic => 0.15
-0.15 => prune => 0.16
-0.16 => auto_symbolic => 0.17
-0.17 => auto_symbolic => 0.18
+0.0 => module => 0.1
+0.1 => fit => 0.2
+0.2 => refine => 0.3
+0.3 => fit => 0.4
+0.4 => refine => 0.5
+0.5 => fit => 0.6
+0.6 => refine => 0.7
+0.7 => fit => 0.8
