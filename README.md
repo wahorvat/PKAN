@@ -17,8 +17,7 @@ After cloning the repo, just run
 cd PKAN
 pip install . 
 ```
-
-## Psi Kolmogorov Arnold Networks (PKANs)
+## Getting Started with Psi Kolmogorov Arnold Networks (PKANs)
 
 We provide a `PKAN` class with custom methods implementing ansatz/VMC/gradients evaluations,
 

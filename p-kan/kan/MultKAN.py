@@ -1469,7 +1469,7 @@ class MultKAN(nn.Module):
         pbar = tqdm(range(steps), desc='description', ncols=100)
 
         if loss_fn == None:
-            loss_fn = loss_fn_eval = lambda x, y: torch.mean((x - y) ** 2)
+            loss_fn = loss_fn_eval = lambda x, y: torch.mean((x - y) ** 2) # MSE
         else:
             loss_fn = loss_fn_eval = loss_fn
 
