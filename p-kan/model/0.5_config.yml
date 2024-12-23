@@ -3,13 +3,29 @@ auto_save: true
 base_fun_name: identity
 ckpt_path: ./model
 device: cpu
-grid: 5
+grid: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  AwAAAAAAAAA=
 grid_eps: 0.02
 grid_range:
 - -1
 - 1
 k: 4
-mult_arity: 3
+mult_arity: 2
 round: 0
 sb_trainable: true
 sp_trainable: true
@@ -17,16 +33,11 @@ state_id: 5
 symbolic.funs_name.0:
 - - '0'
   - '0'
-  - '0'
 - - '0'
   - '0'
-  - '0'
-- - '0'
-  - '0'
-  - '0'
-symbolic_enabled: true
+symbolic_enabled: false
 width:
-- - 3
+- - 2
   - 0
 - - 0
   - 1

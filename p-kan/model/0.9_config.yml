@@ -19,13 +19,13 @@ grid: !!python/object/apply:numpy.core.multiarray.scalar
   - -1
   - 0
 - !!binary |
-  CgAAAAAAAAA=
+  FAAAAAAAAAA=
 grid_eps: 0.02
 grid_range:
 - -1
 - 1
 k: 4
-mult_arity: 3
+mult_arity: 2
 round: 0
 sb_trainable: true
 sp_trainable: true
@@ -33,16 +33,11 @@ state_id: 9
 symbolic.funs_name.0:
 - - '0'
   - '0'
-  - '0'
 - - '0'
   - '0'
-  - '0'
-- - '0'
-  - '0'
-  - '0'
-symbolic_enabled: true
+symbolic_enabled: false
 width:
-- - 3
+- - 2
   - 0
 - - 0
   - 1
