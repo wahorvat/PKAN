@@ -9,22 +9,4 @@ This is the github repo for the paper ['PKAN: Kolmogorov Arnold Networks for Ab-
 
 Examples can be seen in the [examples](./examples/) folder and all functions/classes have been documented within the source code. We describe some of the basic functionality here:
 
-## Installation
-
-After cloning the repo, just run
-
-```bash
-cd PKAN
-pip install . 
-```
-## Getting Started with Psi Kolmogorov Arnold Networks (PKANs)
-
-We provide a `PKAN` class with custom methods implementing ansatz/VMC/gradients evaluations,
-
-```python
-import numpy as np
-from kan import *
-from pkan import PKAN
-
-_ = PKAN()
-``` -->
+Currently this repo contains proof-of-concept for learning 1-D functions on simulation data. Moving forward the notebooks will be formalized into a proper library for ab-initio prediction. 
